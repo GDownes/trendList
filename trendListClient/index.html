@@ -1,0 +1,18 @@
+<html ng-app="trendList">
+<head>
+</head>
+<body>
+	<div ng-controller="countryListCtrl">
+		<ul>
+			<li ng-repeat="country in countries">
+				{{country.name}}
+			</li>
+		</ul>
+	</div>
+<script src="http://localhost:8181/socket.io/socket.io.js"></script>
+<script src="js/angular.js"></script>
+<script src="js/factories.js"></script>
+<script src="js/controllers.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
